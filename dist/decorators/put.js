@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Put = void 0;
-const Put = (path) => {
+const Put = (path = "/") => {
     // `target` equals our class, `propertyKey` equals our decorated method name
     return (target, propertyKey) => {
         // In case this is the first route to be registered the `routes` metadata is likely to be undefined at this point.

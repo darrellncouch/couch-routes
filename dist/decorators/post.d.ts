@@ -1,1 +1,1 @@
-export declare const Post: (path: string) => MethodDecorator;
+export declare const Post: (path?: string) => MethodDecorator;

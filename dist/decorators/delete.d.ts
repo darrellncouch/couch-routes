@@ -1,1 +1,1 @@
-export declare const Delete: (path: string) => MethodDecorator;
+export declare const Delete: (path?: string) => MethodDecorator;

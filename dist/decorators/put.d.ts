@@ -1,1 +1,1 @@
-export declare const Put: (path: string) => MethodDecorator;
+export declare const Put: (path?: string) => MethodDecorator;

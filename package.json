@@ -1,0 +1,29 @@
+{
+  "name": "couch-routes",
+  "version": "1.0.0",
+  "description": "Clean and scalable upgrade to express. Eliminate route file with decorators for controllers and dependency resolution.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "node",
+    "node.js",
+    "dependency",
+    "injection",
+    "typescript",
+    "decorators",
+    "routing"
+  ],
+  "author": "Darrell Couch",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "typescript": "^4.4.4"
+  }
+}

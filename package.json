@@ -1,6 +1,6 @@
 {
   "name": "couch-routes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Clean and scalable upgrade to express. Eliminate route file with decorators for controllers and dependency resolution.",
   "main": "./scripts/couch.min.js",
   "scripts": {

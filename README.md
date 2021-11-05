@@ -1,17 +1,22 @@
 # couch-routes
+
 ## What is this?
 
-couch-routes is a simple and light-weight package to simplify routing and dependency injection in class based express typescript.
+couch-routes is a simple and light-weight package built to simplify routing and dependencies </br> through a typescript class based approch to express.
+
+## Why use couch-routes
+
+The intention of couch-routes is to clean up the common file structure of an express application while </br> making it more intuitive and familliar to the common structure and feel of web frameworks throughout </br> different languages. This packages takes consideration from Dot Net as well as Angular, giving a familliar </br> routing and dependency injection experience.
 
 ## Installation
 
 `npm i couchRoutes --save`
 
 ## tsconfig.json
-"compilerOptions": {
-    ...
-    "experimentalDecorators": true,                   
-    "emitDecoratorMetadata": true,
+"compilerOptions": { </br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"experimentalDecorators": true,</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"emitDecoratorMetadata": true,</br>
 }
 
 
@@ -87,10 +92,10 @@ export default class MyService {
 
 ## Options
 
-Controller(routePrefix: string)
-Get(route: string)
-Put(route: string)
-Post(route: string)
-Delete(route: string)
+Controller(routePrefix: string)</br>
+Get(route: string)</br>
+Put(route: string)</br>
+Post(route: string)</br>
+Delete(route: string)</br>
 
 *all of the above default with "/" if nothing is passed*

@@ -1,4 +1,5 @@
-import "reflect-metadata";import { IRouteDefinition } from "./core/IRouteDefinition";
+import "reflect-metadata";
+import { IRouteDefinition } from "./core/IRouteDefinition";
 import {Express, Request, Response} from "express";
 
 const Injector = new class {

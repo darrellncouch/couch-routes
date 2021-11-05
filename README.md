@@ -7,6 +7,14 @@ couch-routes is a simple and light-weight package to simplify routing and depend
 
 `npm i couchRoutes --save`
 
+## tsconfig.json
+"compilerOptions": {
+    ...
+    "experimentalDecorators": true,                   
+    "emitDecoratorMetadata": true,
+}
+
+
 ## Usage
 
 app.ts

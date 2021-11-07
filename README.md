@@ -10,7 +10,7 @@ The intention of couch-routes is to clean up the common file structure of an exp
 
 ## Installation
 
-`npm i couchRoutes --save`
+`npm i couch-routes --save`
 
 ## tsconfig.json
 "compilerOptions": { </br>

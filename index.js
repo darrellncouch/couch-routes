@@ -8,13 +8,13 @@ const Injector = new class {
         return new target(...injections);
     }
 };
-const initialize = (app, controllers) => {
+const initialize = (app, controllers, cors = null) => {
     controllers.forEach(controller => {
         const instance = Injector.resolve(controller);
         const prefix = Reflect.getMetadata('prefix', controller);
         const routes = Reflect.getMetadata('routes', controller);
         routes.forEach(route => {
-            app[route.requestMethod](prefix + route.path, (req, res) => instance[route.methodName](req, res));
+            app[route.requestMethod](prefix + route.path, cors, (req, res) => instance[route.methodName](req, res));
         });
     });
 };
